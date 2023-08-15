@@ -4,26 +4,18 @@ import ServiceItems from '../ServiceItems/ServiceItems';
 
 const OurServices = () => {
     return (
-        <div className='container p-5 services-container'>
-            <div className="row">
-                <div className="col-sm-6 mb-3 mb-sm-0">
-                    <div className="">
-                        <div className="card-body">
-                            <ServiceItems />
-                        </div>
-                    </div>
-                </div>
-                <div className="col-sm-6">
-                    <div className="">
-                        <div className="card-body">
-                            <h5 className="card-title">Special title treatment</h5>
-                            <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" className="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
+        <div className=' p-5 services-container'>
+            <div>
+                <ServiceItems />
             </div>
-
+            <div>
+                <p style={{ color: '#FFE379' }}>OUR SERVICES
+                </p>
+                <h2 className='text-white fw-bold'>WE CREATE AMAZING <br /> VIDEO</h2>
+                <p className='text-white fw-light'>Maecenas eros dui, tempus sit amet quam ac, ultrices vehicula elit. <br /> Sed euismod vel tortor et luctus. In viverra finibus velit et ullamcorper. <br /> Vivamus eleifend velit ac lobortis fringilla. Fusce fermentum in ligula non convallis.
+                </p>
+                <button className='service-btn'>VIEW SERVICES</button>
+            </div>
         </div>
     );
 };

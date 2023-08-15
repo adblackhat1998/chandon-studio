@@ -13,6 +13,9 @@ import { FaQuoteRight } from 'react-icons/fa';
 const ClientComment = () => {
     const responsive = {
         breakpoints: {
+            280: {
+                slidesPerView: 1,
+            },
             320: {
                 slidesPerView: 1,
 
