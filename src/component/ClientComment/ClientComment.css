@@ -1,0 +1,19 @@
+.client-info {
+    background-color: rgba(128, 128, 128, 0.24);
+    box-shadow: 5px 4px 8px rgba(255, 0, 0, 0.61);
+}
+
+.clients {
+    width: 200px;
+
+}
+
+.yellowColor {
+    color: #FFE379;
+    font-size: 20px;
+}
+
+.comment-icon {
+    color: #FFE379;
+    font-size: 20px;
+}

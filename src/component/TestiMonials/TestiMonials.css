@@ -1,0 +1,14 @@
+.testimonialBg {
+    height: 100%;
+    background-image: url('../../../public/images/Frame/dark.png'), url('../../../public/images/homebanner/road.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.white-color {
+    color: #f4f4f4;
+    font-size: 56px;
+    font-family: Oswald, sans-serif;
+    font-weight: 600;
+}

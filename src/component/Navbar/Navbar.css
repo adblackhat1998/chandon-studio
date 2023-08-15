@@ -1,0 +1,19 @@
+.navLink {
+    text-decoration: none;
+    color: #f4f4f4;
+    margin-left: 30px;
+    font-weight: 300;
+}
+
+.navLink:hover {
+    color: #FFE379;
+}
+
+.resume-btn {
+    border: 0;
+    background: #FFE379;
+    color: #101010;
+    font-size: 19.2px;
+    padding: 13px 25px;
+    font-weight: 600;
+}

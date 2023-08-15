@@ -1,0 +1,36 @@
+.info-pic-bg {
+    width: 500px;
+    margin-top: 59px;
+    background-color: rgba(0, 0, 0, 0.274);
+}
+
+.get-stared-btn {
+    background-color: #FFE379;
+    border: 0;
+    color: #101010;
+    font-size: 19.2px;
+    font-weight: bold;
+    padding: 13px 25px;
+    font-family: oswald, sans-serif;
+}
+
+.home-description {
+    color: #f4f4f4;
+    font-size: 80px;
+    font-weight: bolder;
+    font-family: oswald, sans-serif;
+}
+
+.custom-color {
+    color: #FFE379;
+}
+
+
+/* mobile responsive  */
+@media screen and (max-width:480px) {
+
+    .banner-media {
+        display: flex;
+        flex-direction: column;
+    }
+}
